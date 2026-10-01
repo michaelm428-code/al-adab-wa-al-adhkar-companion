@@ -1,15 +1,17 @@
-# Index
+# الفهرس
 
-This directory tracks project-wide research status.
+يُستخدم هذا المجلد لمتابعة حالة البحث على مستوى المشروع كله.
 
-The canonical hadith list is [hadith-index.md](hadith-index.md).
+الفهرس المعتمد للأحاديث هو [hadith-index.md](hadith-index.md).
 
-Update the index when:
+يُحدَّث الفهرس عند:
 
-- a hadith entry is created;
-- a source/grading verification materially changes;
-- a Dorar explanation is added;
-- a benefit or application becomes VERIFIED or is downgraded;
-- an entry becomes publication-ready.
+- إنشاء مدخل لحديث جديد؛
+- حدوث تغيير جوهري في توثيق المصدر أو الحكم؛
+- إضافة شرح الدرر السنية؛
+- توثيق رواية أطول أو معلومات عن ملابسات الحديث؛
+- توثيق شرح علمي مهم؛
+- انتقال فائدة أو تطبيق إلى حالة **موثَّق** أو خفض درجة توثيقه؛
+- اعتماد المدخل صالحًا للنشر.
 
-The index is a navigation and status tool. It is not evidence. Verification must remain traceable to the cited source records and hadith entries.
+الفهرس أداة للتنقل ومتابعة الحالة، وليس دليلًا بذاته. ويبقى توثيق كل مادة راجعًا إلى المصادر المسجلة داخل مدخل الحديث وسجلات الأدلة.
