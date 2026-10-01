@@ -8,6 +8,25 @@ GitHub is the permanent source of truth. Working notes outside the repository ar
 
 Accuracy, traceability, fidelity to sources, and preservation of context take priority over completeness or speed.
 
+## 1.1 Future-chat startup protocol
+
+Every future chat or research session must begin by reading, in order:
+
+1. `START_HERE.md`
+2. `PROJECT_RULES.md`
+3. `verification/WORKFLOW.md`
+4. `index/book-structure.md`
+5. `CURRENT_STATUS.md`
+6. the current `hadith/` research file
+7. the corresponding `publication/` file, if one exists
+8. `sources/source-register.md`
+
+Do not rely on conversational memory when the repository can establish the rule, evidence state, or current stopping point.
+
+Any new permanent research rule or workflow change must be written into the repository before the project proceeds beyond that change.
+
+At the end of each substantial work session, update `CURRENT_STATUS.md`.
+
 ## 2. Publication language
 
 The final companion is an **Arabic-only book**.
@@ -342,6 +361,14 @@ Before a hadith entry is treated as publication-ready, confirm additionally:
 - substantial commentary research has been completed or explicitly marked incomplete;
 - every substantive claim in sections 2–6 has visible evidence status;
 - all publication-facing wording is Arabic.
+
+## 14.1 Separation of research and publication
+
+- `hadith/` contains the full research dossier, including PARTIALLY VERIFIED and UNVERIFIED leads.
+- `publication/` contains only reader-facing Arabic material that has passed the verification gate.
+- A partially verified research lead does not block publication if it is excluded from the publication file and all included material is VERIFIED.
+- Do not silently promote an unresolved research lead into publication prose.
+- Publication readiness is assessed against the material actually included in the publication file.
 
 ## 15. Honest incompleteness
 
