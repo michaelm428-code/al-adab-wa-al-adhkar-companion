@@ -61,6 +61,21 @@ Every hadith entry must contain, in this order:
 
 Use the controlled template in `templates/hadith-entry-template.md`.
 
+### Numbering and base-text locator
+
+The bracketed numbers **[1]–[142] in the base book are topic numbers, not global hadith numbers**. Individual narration numbering restarts within each topic.
+
+Every entry must therefore record:
+
+- the internal project ID, e.g. `H0001`;
+- the topic number and topic title;
+- the narration number within that topic;
+- the printed page number;
+- the PDF page number;
+- a stable filename based on topic and local narration number, e.g. `001-01.md`.
+
+Do not describe topic **[1]** as “Hadith 1” in the base book. See `index/book-structure.md`.
+
 Within **شرح الحديث**, every entry must explicitly investigate:
 
 - whether the selected text is a complete standalone narration, an excerpt, an abridgment, or a wording that belongs to a longer narration;
@@ -76,6 +91,9 @@ Within **شرح الحديث**, every entry must explicitly investigate:
 - If variants are relevant, keep them distinct and identify their sources separately.
 - Any normalization made solely for search or indexing must never replace the preserved source text.
 - The wording used by *Al-Adab wa al-Adhkar* must be preserved as the project's base-text wording even when a longer or different wording exists elsewhere.
+- Preserve all base-book footnotes attached to the narration exactly as printed.
+- Keep the author's brief takhrīj notes, lexical glosses, and other footnotes visibly distinct from later project research.
+- A brief source note in the base book, such as “رواه مسلم” or “متفق عليه”, is part of the base-book apparatus and must still be independently checked against the original hadith source during verification.
 
 ## 5. المصدر والحكم
 
