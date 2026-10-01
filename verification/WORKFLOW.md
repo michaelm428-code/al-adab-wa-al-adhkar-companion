@@ -9,17 +9,40 @@ This workflow is the required path from research lead to final companion materia
 - Add it to `index/hadith-index.md`.
 - Do not begin with a target number of benefits or applications. Completeness must not drive invention.
 
-## 2. Verify the hadith text
+## 2. Establish the base wording and primary source
 
-1. Identify the selected source.
-2. Inspect that source directly.
-3. Copy the narration exactly as found there.
-4. Record the collection, locator, edition/database, and direct link.
-5. Keep materially different variants separate.
+1. Locate the hadith in the project's base text, *Al-Adab wa al-Adhkar*.
+2. Preserve that wording exactly.
+3. Record its book page/locator.
+4. Identify the underlying hadith collection or collections.
+5. Inspect the selected primary source directly.
+6. Record the collection, locator, edition/database, and direct link.
+7. Keep materially different variants separate.
 
-A text is VERIFIED only after the selected source itself has been inspected.
+A text is VERIFIED only after the relevant source itself has been inspected.
 
-## 3. Verify source and grading
+## 3. Determine whether a longer narration exists
+
+Every hadith must be checked for a longer form.
+
+1. Compare the base wording against primary-source narrations.
+2. Determine whether it is standalone, excerpted, abridged, or one variant among others.
+3. Search for a longer narration containing the same passage when evidence points to one.
+4. Inspect the primary source containing the longer wording.
+5. Preserve the longer wording exactly in the explanation section.
+6. Record its source and locator.
+7. Describe only the demonstrable relationship between the shorter and longer versions.
+8. Do not merge separate variants into a synthetic narration.
+
+If no longer form is verified, record:
+
+**No verified longer version located.**
+
+If unresolved, record:
+
+**Longer-version research incomplete.**
+
+## 4. Verify source and grading
 
 For every grading:
 
@@ -31,13 +54,42 @@ For every grading:
 
 Do not convert a database label into an unattributed project judgment.
 
-## 4. Record vocabulary
+## 5. Record vocabulary
 
 - Prefer linguistic sources and recognized scholarly explanations.
 - Cite interpretively significant meanings.
 - Keep vocabulary separate from benefits, rulings, and applications.
 
-## 5. Handle Dorar explanation correctly
+## 6. Investigate time, place, and circumstances
+
+Search the primary narration, its longer forms, related narrations, and recognized commentary/historical works for documented contextual information.
+
+Check specifically for:
+
+- time or period;
+- location;
+- journey, battle, pilgrimage, visit, illness, meal, gathering, sermon, or other event;
+- person or group addressed;
+- question or incident that prompted the statement;
+- action occurring when the words were spoken;
+- other circumstances material to understanding the narration.
+
+For each contextual claim:
+
+1. capture the exact supporting evidence or sufficiently precise source note;
+2. identify whether the context is explicit in the narration or supplied by a named scholar;
+3. record the source and locator;
+4. assign a verification status.
+
+Do not reconstruct context from plausibility, general chronology, or biography and present it as fact.
+
+If no verified context is found, record:
+
+**No verified information on time, place, or circumstances located.**
+
+## 7. Build the full commentary record
+
+### Dorar
 
 When Dorar is used:
 
@@ -48,7 +100,23 @@ When Dorar is used:
 5. Do not silently edit, condense, or merge it.
 6. If an attributed statement inside Dorar is needed as independent evidence for a benefit or application, trace that attribution to the original work before finalizing it.
 
-## 6. Research benefits
+### Original scholarly commentaries
+
+Research substantial commentary rather than relying on a single short explanation.
+
+For each important commentary:
+
+1. identify the scholar and work;
+2. inspect the original work where reasonably possible;
+3. capture the relevant Arabic passage or sufficiently precise research record;
+4. record edition and locator;
+5. keep separate scholars' explanations distinguishable;
+6. note which portion of the hadith or longer narration the commentary addresses;
+7. assign verification status.
+
+Do not collapse multiple scholars into an unattributed "scholars say" synthesis.
+
+## 8. Research benefits
 
 For each possible benefit:
 
@@ -67,7 +135,7 @@ If nothing meets the standard, write:
 
 **No verified scholarly benefit located.**
 
-## 7. Research scholarly applications
+## 9. Research scholarly applications
 
 Apply the same evidence standard used for benefits.
 
@@ -77,7 +145,7 @@ If nothing meets the standard, write:
 
 **No verified scholarly application located.**
 
-## 8. Citation record
+## 10. Citation record
 
 For each publication-relevant item, capture enough metadata to re-open the evidence:
 
@@ -91,12 +159,13 @@ For each publication-relevant item, capture enough metadata to re-open the evide
 - direct or stable URL;
 - access date for online material;
 - original-language supporting text for benefits and applications;
+- exact supporting evidence for historical/contextual claims;
 - verification status;
 - concise verification notes.
 
 Use `templates/evidence-record-template.md` when a fuller standalone record is helpful.
 
-## 9. Status transition rules
+## 11. Status transition rules
 
 ### UNVERIFIED → PARTIALLY VERIFIED
 
@@ -108,11 +177,11 @@ Move only after inspecting the original source and confirming the attribution, s
 
 ### VERIFIED → lower status
 
-Downgrade immediately if later checking reveals an attribution problem, mismatched edition, missing passage, inaccurate transcription, or wording that overstates the source.
+Downgrade immediately if later checking reveals an attribution problem, mismatched edition, missing passage, inaccurate transcription, contextual overstatement, or wording that overstates the source.
 
 Verification is reversible.
 
-## 10. Publication gate
+## 12. Publication gate
 
 Before an item is included in final companion text, confirm:
 
@@ -120,27 +189,38 @@ Before an item is included in final companion text, confirm:
 - the evidence supports the exact claim being made;
 - the original source was inspected where required;
 - the locator can be followed by another researcher;
-- no AI-derived religious benefit, ruling, spiritual conclusion, application, or consensus claim has been inserted.
+- no AI-derived religious benefit, ruling, spiritual conclusion, application, consensus claim, or invented historical context has been inserted.
 
-Before an entry is marked publication-ready, review all substantive material in sections 2–6 and update the project index.
+Before an entry is marked publication-ready, confirm:
 
-## 11. Citation discipline
+- the longer-narration investigation is complete or transparently marked incomplete;
+- any longer version included has been source-checked;
+- historical/contextual claims are individually sourced;
+- substantial commentary research has been completed or transparently marked incomplete;
+- all substantive material in sections 2–6 has been reviewed;
+- the project index has been updated.
+
+## 13. Citation discipline
 
 - Prefer the original source over a quotation of that source in a secondary work.
 - Never cite a search-result snippet as evidence.
-- Never fabricate page numbers, hadith numbers, quotations, editions, or URLs.
+- Never fabricate page numbers, hadith numbers, quotations, editions, dates, places, occasions, or URLs.
 - Do not treat an inaccessible citation as VERIFIED merely because it looks precise.
 - When page numbering differs by edition, record the edition.
 - For scans, distinguish printed page number from viewer/PDF page when necessary.
 - For web sources, use the direct content page rather than a homepage or search page.
 
-## 12. Research stop rule
+## 14. Research stop rule
 
 Stop and record uncertainty when the evidence does not support promotion to VERIFIED.
 
 Acceptable outcomes include:
 
 - **Research incomplete**
+- **Longer-version research incomplete**
+- **No verified longer version located**
+- **No verified information on time, place, or circumstances located**
+- **Commentary research incomplete**
 - **Original source not yet inspected**
 - **Attribution found; verification pending**
 - **No verified scholarly benefit located**
