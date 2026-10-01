@@ -4,7 +4,12 @@ This workflow is the required path from research lead to final companion materia
 
 ## 1. Open the entry
 
+- Confirm the topic number and title from `index/book-structure.md`.
+- Confirm the narration's local number within that topic.
+- Assign the next internal project ID, e.g. `H0001`.
+- Name the file by topic and local narration number, e.g. `001-01.md`.
 - Create the hadith file from `templates/hadith-entry-template.md`.
+- Record both the printed page and PDF page.
 - Mark the entry **Research incomplete**.
 - Add it to `index/hadith-index.md`.
 - Do not begin with a target number of benefits or applications. Completeness must not drive invention.
@@ -13,11 +18,13 @@ This workflow is the required path from research lead to final companion materia
 
 1. Locate the hadith in the project's base text, *Al-Adab wa al-Adhkar*.
 2. Preserve that wording exactly.
-3. Record its book page/locator.
-4. Identify the underlying hadith collection or collections.
-5. Inspect the selected primary source directly.
-6. Record the collection, locator, edition/database, and direct link.
-7. Keep materially different variants separate.
+3. Preserve all base-book footnotes attached to that narration exactly as printed.
+4. Classify those footnotes descriptively (for example: brief takhrīj, lexical gloss, or other note) without altering their wording.
+5. Record both the printed page and PDF page.
+6. Identify the underlying hadith collection or collections.
+7. Inspect the selected primary source directly.
+8. Record the collection, locator, edition/database, and direct link.
+9. Keep materially different variants separate.
 
 A text is VERIFIED only after the relevant source itself has been inspected.
 
