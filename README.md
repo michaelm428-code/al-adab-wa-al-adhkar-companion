@@ -1,84 +1,90 @@
-# Al-Adab wa al-Adhkar Companion
+# مشروع شرح الأذكار والآداب
 
-A research repository for a carefully sourced companion to *Al-Adab wa al-Adhkar*.
+مستودع بحثي لإعداد شرح موثق وموسع لكتاب *الأذكار والآداب*.
 
-GitHub is the permanent source of truth for verified research, source records, entry status, and publication-ready material. ChatGPT and other research tools are working environments only.
+GitHub هو المرجع الدائم للبحث الموثق، وسجلات المصادر، وحالة المداخل، والمواد الجاهزة للنشر. أما المحادثات وأدوات البحث فهي بيئة عمل مؤقتة.
 
-## Governing rules
+## لغة الكتاب
 
-All work in this repository must follow [PROJECT_RULES.md](PROJECT_RULES.md). Accuracy and traceability take priority over completeness.
+**الكتاب النهائي عربي بالكامل.**
 
-The central rule is simple:
+تُكتب بالعربية جميع العناصر المعدة للنشر، ومنها:
 
-> No religious benefit or practical application enters the companion unless it is attributed to a named scholarly source and traceable to an identifiable original text or book.
+- العناوين والعناوين الفرعية؛
+- الشرح والتعليق؛
+- معاني المفردات؛
+- بيان الروايات الأطول؛
+- الزمان والمكان وملابسات الحديث؛
+- الفوائد؛
+- تطبيقات أهل العلم؛
+- بيانات المصادر وحالة التوثيق الظاهرة للقارئ.
 
-Historical/contextual claims are held to the same traceability standard.
+يجوز استعمال الإنجليزية في الملاحظات الداخلية المؤقتة أثناء البحث عند الحاجة، لكنها لا تدخل النص المنشور.
 
-## Standard hadith entry
+## القواعد الحاكمة
 
-Every hadith entry uses these seven sections:
+يجب أن يلتزم جميع العمل بما في [PROJECT_RULES.md](PROJECT_RULES.md). وتُقدَّم الدقة وإمكان التتبع على الاستيعاب والسرعة.
 
-1. **نص الحديث — Hadith Text**
-2. **المصدر والحكم — Source and Grading**
-3. **المفردات — Key Vocabulary**
-4. **شرح الحديث — Explanation**
-5. **الفوائد — Sourced Benefits**
-6. **تطبيقات ذكرها أهل العلم — Scholarly Applications**
-7. **Sources and Verification Status**
+القاعدة المركزية:
 
-The explanation section also records:
+> لا تدخل فائدة شرعية أو تطبيق عملي في الكتاب إلا إذا نُسب إلى عالم معيّن وأمكن تتبعه إلى نص أو كتاب معروف.
 
-- whether the hadith is standalone, excerpted, abridged, or part of a longer narration;
-- the verified longer version when one exists;
-- sourced information about time, place, occasion, audience, and circumstances;
-- the Dorar explanation when used;
-- substantial/full sourced commentary from recognized scholarly works.
+وكذلك لا تُثبت المعلومات التاريخية أو السياقية إلا بدليل يمكن تتبعه.
 
-Use [templates/hadith-entry-template.md](templates/hadith-entry-template.md) for every new entry.
+## البنية الأساسية لكل حديث
 
-## Base text
+1. **نص الحديث**
+2. **المصدر والحكم**
+3. **المفردات**
+4. **شرح الحديث**
+5. **الفوائد**
+6. **تطبيقات ذكرها أهل العلم**
+7. **المصادر وحالة التوثيق**
 
-The project base text is:
+ويشمل قسم **شرح الحديث** كذلك:
 
-**عبد المحسن بن محمد القاسم، متون طالب العلم — المستوى الأول: الأذكار والآداب، الطبعة الأولى، 1445هـ / 2024م.**
+- بيان ما إذا كان النص رواية مستقلة أو جزءًا من رواية أطول أو مختصرًا منها؛
+- إيراد الرواية الأطول الموثقة عند وجودها؛
+- ما ثبت من الزمان والمكان والمناسبة والمخاطَبين وملابسات الحديث؛
+- شرح الدرر السنية عند استعماله؛
+- الشروح العلمية الموسعة من كتب أهل العلم.
 
-See `sources/source-register.md` for the source record.
+يُستخدم [templates/hadith-entry-template.md](templates/hadith-entry-template.md) لكل مدخل جديد.
 
-The wording printed in this base text determines the companion's sequence and the text being investigated. Longer narrations and variants are preserved separately rather than silently substituted for it.
+## النص الأساس
 
-## Repository structure
+النص المعتمد لترتيب المشروع وألفاظه هو:
 
-- `hadith/` — individual hadith research entries; one file per hadith.
-- `templates/` — controlled templates for hadith entries and evidence records.
-- `sources/` — source policy and the project-wide source register.
-- `verification/` — verification definitions, workflow, and publication gates.
-- `index/` — project-wide hadith index and research status.
-- `PROJECT_RULES.md` — binding research and publication rules.
+**د. عبد المحسن بن محمد القاسم، متون طالب العلم — المستوى الأول: الأذكار والآداب، الطبعة الأولى، 1445هـ / 2024م.**
 
-## Verification levels
+انظر `sources/source-register.md`.
 
-- **VERIFIED** — the original source has been inspected and the cited material has been checked against it.
-- **PARTIALLY VERIFIED** — a reliable secondary source or gateway has been found, but the original source has not yet been inspected.
-- **UNVERIFIED** — an attribution or claim has been found but has not been confirmed.
+يبقى لفظ الكتاب الأساس محفوظًا كما هو، وتُذكر الروايات الأطول والألفاظ الأخرى في مواضع منفصلة ولا تُستبدل به خفية.
 
-Only **VERIFIED** material should normally enter the final companion.
+## درجات التوثيق
 
-## Working sequence
+- **موثَّق** — روجع المصدر الأصلي وتحقق النص والعزو والموضع.
+- **موثَّق جزئيًا** — وُجد مصدر ثانوي معتبر أو طريق بحث موثوق، لكن لم تكتمل مراجعة الأصل.
+- **غير موثَّق** — لم يكتمل التحقق من العزو أو المادة.
 
-1. Locate the hadith in the base text and preserve its wording exactly.
-2. Verify its underlying primary source.
-3. Determine whether it is part of a longer narration and preserve the verified longer version when applicable.
-4. Verify grading with explicit attribution.
-5. Research vocabulary from reliable linguistic and scholarly sources.
-6. Investigate sourced time, place, occasion, audience, and circumstances.
-7. Locate the correct Dorar al-Sunniyyah page when Dorar is used.
-8. Obtain substantial Dorar explanation text from the user and preserve that supplied text exactly.
-9. Research substantial/full commentary in original scholarly works.
-10. Locate explicitly stated scholarly benefits.
-11. Locate documented scholarly applications.
-12. Trace attributed benefits and applications to original works.
-13. Record verification status and evidence.
-14. Update the project index.
-15. Treat the entry as publication-ready only after the verification gate is satisfied.
+لا يدخل في النص النهائي عادة إلا ما كان **موثَّقًا**.
 
-It is acceptable—and preferable—to leave an area explicitly incomplete rather than fill a gap with unsupported material.
+## مسار العمل
+
+1. تحديد الحديث في النص الأساس وحفظ لفظه كما هو.
+2. التحقق من مصدره الحديثي الأصلي.
+3. البحث في كونه جزءًا من رواية أطول وإثبات الرواية الأطول عند وجودها.
+4. توثيق الحكم على الحديث مع نسبته إلى قائله.
+5. بحث المفردات من مصادر لغوية وعلمية معتبرة.
+6. البحث عن الزمان والمكان والمناسبة والمخاطَبين وملابسات الحديث.
+7. تحديد صفحة الدرر السنية الصحيحة عند استعمالها.
+8. استلام شرح الدرر من المستخدم وحفظه كما أُرسل.
+9. بحث الشروح العلمية الموسعة في المصادر الأصلية.
+10. البحث عن الفوائد التي نص عليها أهل العلم.
+11. البحث عن التطبيقات التي ذكرها أهل العلم.
+12. رد الفوائد والتطبيقات إلى مصادرها الأصلية.
+13. تسجيل حالة التوثيق والأدلة.
+14. تحديث فهرس الأحاديث.
+15. المراجعة النهائية قبل اعتماد المدخل للنشر.
+
+ويُقبل أن يبقى القسم ناقصًا أو أن يُصرَّح بعدم العثور على مادة موثقة، ولا يُملأ الفراغ بمادة غير مسندة.
