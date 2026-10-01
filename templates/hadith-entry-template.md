@@ -1,235 +1,236 @@
-# Hadith [NUMBER] — [SHORT IDENTIFIER]
+# الحديث [الرقم] — [عنوان مختصر]
 
-**Research status:** Research incomplete  
-**Entry verification status:** UNVERIFIED  
-**Last verified:** —  
+**حالة البحث:** البحث غير مكتمل  
+**حالة توثيق المدخل:** غير موثَّق  
+**آخر مراجعة:** —  
 
-> Do not mark this entry publication-ready until the verification gate in `verification/WORKFLOW.md` is satisfied.
+> لا يُعد هذا المدخل صالحًا للنشر حتى يكتمل فحص التوثيق المبيَّن في `verification/WORKFLOW.md`.
 
 ---
 
-## 1. نص الحديث — Hadith Text
+## 1. نص الحديث
 
-**Verification status:** UNVERIFIED
+**حالة التوثيق:** غير موثَّق
 
-**Base text source:** *Al-Adab wa al-Adhkar*  
-**Source register ID:** SRC-0001  
-**Book page / locator:**  
-**Underlying hadith source selected for verification:**  
-**Underlying source locator:**  
-**Direct link:**  
+**المصدر الأساس:** *الأذكار والآداب*  
+**معرّف المصدر:** SRC-0001  
+**الصفحة / الموضع في الكتاب:**  
+**المصدر الحديثي الأصلي المختار للتحقق:**  
+**موضع الحديث في المصدر الأصلي:**  
+**الرابط المباشر:**  
 
 ### النص
 
-[Preserve the hadith text exactly as found in *Al-Adab wa al-Adhkar*. Do not silently normalize, shorten, merge, or rewrite it.]
+[يُحفظ نص الحديث كما ورد في *الأذكار والآداب* دون تعديل أو اختصار أو دمج أو إعادة صياغة.]
 
-### Text verification notes
+### ملاحظات التحقق من النص
 
-- Base-text wording checked: No
-- Underlying source inspected: No
-- Variant notes:
-- Research notes:
+- تمت مراجعة لفظ الكتاب الأساس: لا
+- تمت مراجعة المصدر الأصلي: لا
+- ملاحظات اختلاف الروايات:
+- ملاحظات البحث:
 
 ---
 
-## 2. المصدر والحكم — Source and Grading
+## 2. المصدر والحكم
 
-**Verification status:** UNVERIFIED
+**حالة التوثيق:** غير موثَّق
 
-### Source of the narration
+### مصدر الرواية
 
-- Collection:
-- Book/chapter:
-- Hadith number or locator:
-- Edition/database:
-- Direct link:
-- Verification notes:
+- الكتاب:
+- الكتاب / الباب:
+- رقم الحديث أو موضعه:
+- الطبعة / قاعدة البيانات:
+- الرابط المباشر:
+- ملاحظات التوثيق:
 
-### Grading record
+### أحكام أهل العلم على الحديث
 
-| Grading | Attributed to | Source | Locator | Link | Status |
+| الحكم | القائل به | المصدر | الموضع | الرابط | حالة التوثيق |
 |---|---|---|---|---|---|
-| — | — | — | — | — | UNVERIFIED |
+| — | — | — | — | — | غير موثَّق |
 
-**Notes:**  
-[Every grading must be attributed to a named scholar or recognized hadith source.]
+**ملاحظة:**  
+[لا يُذكر حكم على الحديث إلا مع نسبته إلى عالم معيّن أو مصدر حديثي معتبر.]
 
 ---
 
-## 3. المفردات — Key Vocabulary
+## 3. المفردات
 
-| Word / phrase | Linguistic meaning | Source | Locator / link | Status |
+| اللفظ | المعنى اللغوي | المصدر | الموضع / الرابط | حالة التوثيق |
 |---|---|---|---|---|
-| — | — | — | — | UNVERIFIED |
+| — | — | — | — | غير موثَّق |
 
-**Notes:**  
-[Keep this section primarily linguistic. Do not turn vocabulary notes into unsourced benefits or rulings.]
+**ملاحظات:**  
+[يُجعل هذا القسم لغويًا في الأصل، ولا تُحوَّل الملاحظات اللغوية إلى فوائد شرعية أو أحكام غير منسوبة.]
 
 ---
 
-## 4. شرح الحديث — Explanation
+## 4. شرح الحديث
 
-### 4.1 Relationship to a longer narration
+### 4.1 صلة الحديث برواية أطول
 
-**Research status:** Research incomplete  
-**Classification:** [standalone / excerpt / abridged / longer variant exists / unclear]
+**حالة البحث:** البحث غير مكتمل  
+**التصنيف:** [رواية مستقلة / جزء من رواية أطول / مختصر من رواية أطول / له ألفاظ أو روايات أطول / غير واضح]
 
-- Base wording compared against source narrations: No
-- Longer version located: No
-- Primary source:
-- Locator:
-- Direct link:
-- Verification status: UNVERIFIED
-- Relationship notes:
+- تمت مقارنة لفظ الكتاب الأساس بالروايات الأصلية: لا
+- عُثر على رواية أطول: لا
+- المصدر الأصلي:
+- الموضع:
+- الرابط المباشر:
+- حالة التوثيق: غير موثَّق
+- بيان صلة اللفظ المختصر بالرواية الأطول:
 
-#### النص الأطول — Longer version
+#### النص الأطول
 
-[If a verified longer version exists, preserve it exactly as found in the selected source. Keep materially different variants separate.]
+[إذا ثبتت رواية أطول، يُحفظ نصها كما ورد في المصدر المختار، مع إبقاء الروايات المختلفة منفصلة وعدم دمجها.]
 
-**If none is verified:**  
-**No verified longer version located.**
+**إذا لم تثبت رواية أطول:**  
+**لم يُعثر على رواية أطول موثقة.**
 
-### 4.2 Time, place, and circumstances
+### 4.2 الزمان والمكان وملابسات الحديث
 
-**Research status:** Research incomplete
+**حالة البحث:** البحث غير مكتمل
 
-| Context item | Sourced information | Source | Locator / link | Status |
+| العنصر | المعلومة الموثقة | المصدر | الموضع / الرابط | حالة التوثيق |
 |---|---|---|---|---|
-| Time / period | — | — | — | UNVERIFIED |
-| Place | — | — | — | UNVERIFIED |
-| Occasion / event | — | — | — | UNVERIFIED |
-| Person / audience addressed | — | — | — | UNVERIFIED |
-| Prompting question / incident | — | — | — | UNVERIFIED |
-| Other circumstances | — | — | — | UNVERIFIED |
+| الزمان / الفترة | — | — | — | غير موثَّق |
+| المكان | — | — | — | غير موثَّق |
+| المناسبة / الحدث | — | — | — | غير موثَّق |
+| المخاطَب / الحاضرون | — | — | — | غير موثَّق |
+| السؤال أو الواقعة التي قيل الحديث بسببها | — | — | — | غير موثَّق |
+| ملابسات أخرى | — | — | — | غير موثَّق |
 
-**Context notes:**  
-[Distinguish explicit narration context from a scholar's historical identification. Do not include unsupported reconstruction.]
+**ملاحظات السياق:**  
+[يُفرَّق بين ما صرحت به الرواية نفسها، وما عيّنه عالم أو مؤرخ في مصدر معتبر، ولا يُدخل الاستنتاج غير الموثق.]
 
-**If none is verified:**  
-**No verified information on time, place, or circumstances located.**
+**إذا لم يثبت شيء:**  
+**لم يُعثر على معلومات موثقة عن الزمان أو المكان أو ملابسات الحديث.**
 
-### 4.3 Dorar al-Sunniyyah
+### 4.3 شرح الدرر السنية
 
-**Dorar page:**  
-**Correct hadith page confirmed:** No  
-**Text supplied by user:** No  
-**Verification status:** UNVERIFIED
+**صفحة الدرر:**  
+**تم التأكد من مطابقة صفحة الحديث:** لا  
+**زوّد المستخدم نص الشرح:** لا  
+**حالة التوثيق:** غير موثَّق
 
-#### شرح الحديث — preserved Dorar text
+#### شرح الحديث — النص المحفوظ
 
-[Paste the substantial Dorar explanation supplied by the user here exactly as provided. Do not rewrite or paraphrase it.]
+[يُوضع هنا نص شرح الدرر الذي يرسله المستخدم كما هو، دون إعادة صياغة أو اختصار.]
 
-### 4.4 Full sourced commentary
+### 4.4 الشروح العلمية الموسعة
 
-> Seek substantial commentary from recognized scholars and original commentary works. Keep each scholar/source identifiable.
+> يُبحث عن الشروح المطولة أو المهمة من كلام أهل العلم، مع إبقاء كلام كل عالم ومصدره متميزًا.
 
-#### Commentary CMT01 — [Scholar / work]
+#### الشرح CMT01 — [العالم / الكتاب]
 
-**Verification status:** UNVERIFIED
+**حالة التوثيق:** غير موثَّق
 
-- **Scholar:**
-- **Work:**
-- **Edition/publication details:**
-- **Volume/page or other locator:**
-- **Direct/stable link:**
-- **Original Arabic commentary / substantial supporting passage:**
-- **Research notes:**
-- **Relationship to this hadith wording / longer version:**
+- **العالم:**
+- **الكتاب:**
+- **بيانات الطبعة / النشر:**
+- **الجزء / الصفحة / الموضع:**
+- **الرابط المباشر أو الثابت:**
+- **النص العربي من الشرح / المقطع الدال:**
+- **ملاحظات البحث:**
+- **صلة الشرح بلفظ الحديث أو الرواية الأطول:**
 
-[Duplicate as CMT02, CMT03, etc. as needed.]
+[يُكرر السجل CMT02 وCMT03 وما بعدهما عند الحاجة.]
 
-**Commentary coverage notes:**  
-[Identify important commentary works checked even when they did not add material.]
-
----
-
-## 5. الفوائد — Sourced Benefits
-
-> Do not independently derive benefits. Every benefit below must be attributable to a named scholar and traceable to an identifiable source.
-
-### Benefit B01 — [working label]
-
-**Verification status:** UNVERIFIED
-
-- **Scholar:**
-- **Original Arabic text:**
-- **Book/source:**
-- **Edition/publication details:**
-- **Volume/page or other locator:**
-- **Direct link:**
-- **Verification notes:**
-- **Companion wording:** [Only after the underlying benefit is securely sourced; do not strengthen beyond the source.]
-
-[Duplicate the record for B02, B03, etc. as needed.]
-
-**If none is verified:**  
-**No verified scholarly benefit located.**
+**ملاحظات استيعاب الشروح:**  
+[تُذكر أهم كتب الشرح التي تمت مراجعتها، ولو لم تضف مادة جديدة.]
 
 ---
 
-## 6. تطبيقات ذكرها أهل العلم — Scholarly Applications
+## 5. الفوائد
 
-> Do not independently invent applications. Include only applications, examples, or situations traceable to named scholars and identifiable sources.
+> لا تُستنبط الفوائد استقلالًا. كل فائدة تُذكر هنا يجب أن تكون منسوبة إلى عالم معيّن وقابلة للتتبع إلى مصدر معروف.
 
-### Application A01 — [working label]
+### الفائدة B01 — [عنوان مختصر]
 
-**Verification status:** UNVERIFIED
+**حالة التوثيق:** غير موثَّق
 
-- **Scholar:**
-- **Original supporting text:**
-- **Book/source:**
-- **Edition/publication details:**
-- **Volume/page or other locator:**
-- **Direct link:**
-- **Verification notes:**
-- **Companion wording:** [Only after the underlying application is securely sourced; do not expand beyond the source.]
+- **العالم:**
+- **النص العربي الأصلي:**
+- **الكتاب / المصدر:**
+- **بيانات الطبعة / النشر:**
+- **الجزء / الصفحة أو الموضع:**
+- **الرابط المباشر:**
+- **ملاحظات التوثيق:**
+- **الصياغة المقترحة للكتاب:** [لا تُعتمد إلا بعد توثيق أصل الفائدة، ولا يجوز أن تتجاوز دلالة المصدر.]
 
-[Duplicate the record for A02, A03, etc. as needed.]
+[يُكرر السجل B02 وB03 وما بعدهما عند الحاجة.]
 
-**If none is verified:**  
-**No verified scholarly application located.**
+**إذا لم توجد فائدة موثقة:**  
+**لم يُعثر على فائدة موثقة عن أهل العلم.**
 
 ---
 
-## 7. Sources and Verification Status
+## 6. تطبيقات ذكرها أهل العلم
 
-### Evidence summary
+> لا تُنشأ التطبيقات استقلالًا. لا يُذكر مثال أو تطبيق أو حالة عملية إلا إذا أمكن تتبعها إلى عالم معيّن ومصدر معروف.
 
-| ID | Section | Source / scholar | Locator | Status | Notes |
+### التطبيق A01 — [عنوان مختصر]
+
+**حالة التوثيق:** غير موثَّق
+
+- **العالم:**
+- **النص الأصلي الدال على التطبيق:**
+- **الكتاب / المصدر:**
+- **بيانات الطبعة / النشر:**
+- **الجزء / الصفحة أو الموضع:**
+- **الرابط المباشر:**
+- **ملاحظات التوثيق:**
+- **الصياغة المقترحة للكتاب:** [لا تُعتمد إلا بعد توثيق أصل التطبيق، ولا يجوز توسيع دلالته بما لا يدل عليه المصدر.]
+
+[يُكرر السجل A02 وA03 وما بعدهما عند الحاجة.]
+
+**إذا لم يوجد تطبيق موثق:**  
+**لم يُعثر على تطبيق موثق ذكره أهل العلم.**
+
+---
+
+## 7. المصادر وحالة التوثيق
+
+### ملخص الأدلة
+
+| المعرّف | القسم | المصدر / العالم | الموضع | حالة التوثيق | ملاحظات |
 |---|---|---|---|---|---|
-| T01 | Hadith text | — | — | UNVERIFIED | — |
-| G01 | Grading | — | — | UNVERIFIED | — |
-| V01 | Vocabulary | — | — | UNVERIFIED | — |
-| L01 | Longer narration | — | — | UNVERIFIED | — |
-| CTX01 | Historical/contextual information | — | — | UNVERIFIED | — |
-| CMT01 | Commentary | — | — | UNVERIFIED | — |
-| E01 | Dorar explanation | — | — | UNVERIFIED | — |
-| B01 | Benefit | — | — | UNVERIFIED | — |
-| A01 | Application | — | — | UNVERIFIED | — |
+| T01 | نص الحديث | — | — | غير موثَّق | — |
+| G01 | الحكم على الحديث | — | — | غير موثَّق | — |
+| V01 | المفردات | — | — | غير موثَّق | — |
+| L01 | الرواية الأطول | — | — | غير موثَّق | — |
+| CTX01 | الزمان والمكان والملابسات | — | — | غير موثَّق | — |
+| CMT01 | الشرح العلمي | — | — | غير موثَّق | — |
+| E01 | شرح الدرر السنية | — | — | غير موثَّق | — |
+| B01 | الفائدة | — | — | غير موثَّق | — |
+| A01 | التطبيق | — | — | غير موثَّق | — |
 
-### Source register references
+### مراجع سجل المصادر
 
-- [SRC-0001] *Al-Adab wa al-Adhkar* — project base text
+- [SRC-0001] *الأذكار والآداب* — النص الأساس للمشروع
 
-### Final verification checklist
+### قائمة المراجعة النهائية
 
-- [ ] Base hadith wording checked against *Al-Adab wa al-Adhkar*.
-- [ ] Underlying primary hadith source checked.
-- [ ] Source and grading attribution checked.
-- [ ] Relationship to a longer narration investigated.
-- [ ] Any included longer version checked word-for-word against its selected source.
-- [ ] Materially different variants kept separate.
-- [ ] Time, place, occasion, audience, and prompting circumstances investigated.
-- [ ] Every included contextual claim is sourced and traceable.
-- [ ] Dorar page identified if Dorar is used.
-- [ ] User-supplied Dorar explanation preserved exactly if included.
-- [ ] Major relevant commentary sources researched.
-- [ ] Included commentary is attributable and traceable.
-- [ ] Vocabulary sources checked.
-- [ ] Every included benefit is VERIFIED from an original scholarly source.
-- [ ] Every included application is VERIFIED from an original scholarly source.
-- [ ] No AI-derived religious benefit, ruling, spiritual conclusion, application, consensus claim, or invented historical context has entered publication text.
-- [ ] All locators and links are sufficient for another researcher to re-check the evidence.
-- [ ] `index/hadith-index.md` updated.
+- [ ] تمت مراجعة لفظ الحديث في *الأذكار والآداب*.
+- [ ] تمت مراجعة المصدر الحديثي الأصلي.
+- [ ] تم التحقق من المصدر والحكم ونسبة الحكم إلى قائله.
+- [ ] تم البحث في كون الحديث جزءًا من رواية أطول.
+- [ ] تمت مقابلة أي رواية أطول مدرجة على مصدرها كلمةً بكلمة.
+- [ ] أُبقيت الروايات المختلفة منفصلة ولم تُدمج.
+- [ ] تم البحث عن الزمان والمكان والمناسبة والمخاطَبين والواقعة أو السؤال المتعلق بالحديث.
+- [ ] كل معلومة سياقية مدرجة موثقة وقابلة للتتبع.
+- [ ] تم تحديد صفحة الدرر الصحيحة إذا استُخدمت الدرر.
+- [ ] حُفظ نص شرح الدرر الذي أرسله المستخدم كما هو.
+- [ ] تمت مراجعة أهم الشروح ذات الصلة.
+- [ ] كل شرح مدرج منسوب وقابل للتتبع.
+- [ ] تمت مراجعة مصادر المفردات.
+- [ ] كل فائدة مدرجة موثَّقة من مصدر علمي أصلي.
+- [ ] كل تطبيق مدرج موثَّق من مصدر علمي أصلي.
+- [ ] لم يدخل في النص المنشور استنباط ديني أو حكم أو فائدة أو تطبيق أو دعوى إجماع أو سياق تاريخي مخترع من الذكاء الاصطناعي.
+- [ ] جميع المواضع والروابط كافية لإعادة التحقق من المادة.
+- [ ] جميع النصوص المعدة للنشر مكتوبة بالعربية.
+- [ ] تم تحديث `index/hadith-index.md`.
 
-**Publication-ready:** No
+**صالح للنشر:** لا
