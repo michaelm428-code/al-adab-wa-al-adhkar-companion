@@ -1,21 +1,43 @@
-# Hadith Entries
+# مداخل الأحاديث
 
-Store one hadith research entry per Markdown file in this directory.
+يُحفظ لكل حديث أو رواية مستقلة مدخل بحثي منفصل في هذا المجلد.
 
-## Naming convention
+## نظام التسمية
 
-Use zero-padded sequential filenames:
+لأن الأرقام بين المعقوفين في الكتاب **أرقام موضوعات وليست أرقام أحاديث**، يعتمد اسم الملف موضع الحديث داخل الكتاب:
 
-- `0001.md`
-- `0002.md`
-- `0003.md`
+- `001-01.md` = الموضوع [1]، الحديث 1
+- `001-02.md` = الموضوع [1]، الحديث 2
+- `002-01.md` = الموضوع [2]، الحديث 1
 
-The filename is an internal project sequence number. The entry itself must still record the actual source locator and hadith number(s) used by the cited collection.
+ويُعطى كل مدخل كذلك معرّفًا داخليًا عالميًا متسلسلًا:
 
-## Creating an entry
+- `H0001`
+- `H0002`
+- `H0003`
 
-1. Copy `templates/hadith-entry-template.md`.
-2. Set the project sequence number and short identifier.
-3. Leave unresolved sections explicitly marked incomplete.
-4. Add the entry to `index/hadith-index.md`.
-5. Do not mark the entry publication-ready until the verification workflow is complete.
+المعرّف الداخلي خاص بإدارة المشروع، أما موضع الكتاب الأصلي فيبقى محفوظًا دائمًا بالموضوع ورقم الحديث داخله.
+
+## لا يجوز الخلط بين الرقمين
+
+مثال:
+
+**[1] فضل طلب العلم** هو الموضوع الأول، وليس حديثًا واحدًا. وتحته عدة أحاديث مرقمة محليًا.
+
+لذلك يكون أول حديث في الكتاب:
+
+- المعرّف الداخلي: `H0001`
+- الموضوع: `[1] فضل طلب العلم`
+- الحديث داخل الموضوع: `1`
+- الملف: `001-01.md`
+
+## إنشاء مدخل جديد
+
+1. يُنسخ `templates/hadith-entry-template.md`.
+2. يُثبت معرّف المدخل الداخلي.
+3. يُثبت رقم الموضوع وعنوانه ورقم الحديث داخله.
+4. تُثبت الصفحة المطبوعة وصفحة PDF.
+5. يُحفظ نص الحديث وهوامش الكتاب الأساس كما وردت.
+6. تُترك المواضع غير المكتملة مصرحًا بعدم اكتمالها.
+7. يُضاف المدخل إلى `index/hadith-index.md`.
+8. لا يُعتمد المدخل صالحًا للنشر قبل اكتمال مسار التوثيق.
