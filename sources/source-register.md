@@ -1,7 +1,8 @@
-# Source Register
+# سجل المصادر
 
-Add a row when a source or edition is first used. Reuse the same source ID for later entries that rely on the same source/edition.
+يُضاف المصدر أو الطبعة عند أول استعمال، ويُعاد استخدام المعرّف نفسه إذا استُعمل المصدر ذاته في مداخل أخرى.
 
-| Source ID | Author / organization | Work / page title | Source type | Edition / publisher | Stable link | Notes |
+| معرّف المصدر | المؤلف / الجهة | الكتاب / المصدر | نوع المصدر | بيانات الطبعة / النشر | الرابط الثابت | ملاحظات |
 |---|---|---|---|---|---|---|
-| SRC-0001 | د. عبد المحسن بن محمد القاسم | متون طالب العلم — المستوى الأول: الأذكار والآداب | Project base text / published book | الطبعة الأولى، 1445هـ / 2024م؛ المدينة المنورة | https://a-alqasim.com/books/0101athkaar/ | Canonical project sequence and base wording. ISBN 978-603-04-7939-9. The book contains 142 numbered topics; the numbers are topic numbers, while hadith numbering restarts within each topic. User supplied the 286-page PDF; official author website also provides the work and PDF. |
+| SRC-0001 | د. عبد المحسن بن محمد القاسم | متون طالب العلم — المستوى الأول: الأذكار والآداب | النص الأساس للمشروع / كتاب مطبوع | الطبعة الأولى، 1445هـ / 2024م؛ المدينة المنورة | https://a-alqasim.com/books/0101athkaar/ | يحدد ترتيب المشروع ولفظه الأساس. ISBN 978-603-04-7939-9. يضم 142 موضوعًا مرقمًا، ويبدأ ترقيم الأحاديث من جديد داخل كل موضوع. النسخة المرفوعة PDF في 286 صفحة. |
+| SRC-0002 | مسلم بن الحجاج القشيري النيسابوري | صحيح مسلم | مصدر حديثي أصلي | تحقيق محمد فؤاد عبد الباقي؛ مطبعة عيسى البابي الحلبي وشركاه، القاهرة؛ 1374هـ / 1955م؛ 5 أجزاء | https://shamela.ws/book/1727 | النص الرقمي في الشاملة موافق لترقيم المطبوع. استُعمل في H0001: ج4 ص2074، حديث 2699. |
