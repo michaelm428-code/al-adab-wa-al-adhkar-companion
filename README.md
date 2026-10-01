@@ -12,6 +12,8 @@ The central rule is simple:
 
 > No religious benefit or practical application enters the companion unless it is attributed to a named scholarly source and traceable to an identifiable original text or book.
 
+Historical/contextual claims are held to the same traceability standard.
+
 ## Standard hadith entry
 
 Every hadith entry uses these seven sections:
@@ -24,7 +26,25 @@ Every hadith entry uses these seven sections:
 6. **تطبيقات ذكرها أهل العلم — Scholarly Applications**
 7. **Sources and Verification Status**
 
+The explanation section also records:
+
+- whether the hadith is standalone, excerpted, abridged, or part of a longer narration;
+- the verified longer version when one exists;
+- sourced information about time, place, occasion, audience, and circumstances;
+- the Dorar explanation when used;
+- substantial/full sourced commentary from recognized scholarly works.
+
 Use [templates/hadith-entry-template.md](templates/hadith-entry-template.md) for every new entry.
+
+## Base text
+
+The project base text is:
+
+**عبد المحسن بن محمد القاسم، متون طالب العلم — المستوى الأول: الأذكار والآداب، الطبعة الأولى، 1445هـ / 2024م.**
+
+See `sources/source-register.md` for the source record.
+
+The wording printed in this base text determines the companion's sequence and the text being investigated. Longer narrations and variants are preserved separately rather than silently substituted for it.
 
 ## Repository structure
 
@@ -45,17 +65,20 @@ Only **VERIFIED** material should normally enter the final companion.
 
 ## Working sequence
 
-1. Create a hadith entry from the controlled template.
-2. Identify and preserve the exact hadith text from the selected source.
-3. Verify source and grading with explicit attribution.
-4. Locate the correct Dorar al-Sunniyyah page when Dorar is used.
-5. Obtain substantial Dorar explanation text from the user and preserve that supplied text exactly.
-6. Research vocabulary from reliable linguistic and scholarly sources.
-7. Locate explicitly stated scholarly benefits.
-8. Locate documented scholarly applications.
-9. Trace attributed benefits and applications to original works.
-10. Record verification status and evidence.
-11. Update the project index.
-12. Treat the entry as publication-ready only after the verification gate is satisfied.
+1. Locate the hadith in the base text and preserve its wording exactly.
+2. Verify its underlying primary source.
+3. Determine whether it is part of a longer narration and preserve the verified longer version when applicable.
+4. Verify grading with explicit attribution.
+5. Research vocabulary from reliable linguistic and scholarly sources.
+6. Investigate sourced time, place, occasion, audience, and circumstances.
+7. Locate the correct Dorar al-Sunniyyah page when Dorar is used.
+8. Obtain substantial Dorar explanation text from the user and preserve that supplied text exactly.
+9. Research substantial/full commentary in original scholarly works.
+10. Locate explicitly stated scholarly benefits.
+11. Locate documented scholarly applications.
+12. Trace attributed benefits and applications to original works.
+13. Record verification status and evidence.
+14. Update the project index.
+15. Treat the entry as publication-ready only after the verification gate is satisfied.
 
-It is acceptable—and preferable—to leave a section marked **Research incomplete** or **No verified scholarly benefit/application located** rather than fill a gap with unsupported material.
+It is acceptable—and preferable—to leave an area explicitly incomplete rather than fill a gap with unsupported material.
