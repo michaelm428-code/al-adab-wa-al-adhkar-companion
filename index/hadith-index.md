@@ -1,11 +1,16 @@
-# Hadith Index
+# فهرس الأحاديث
 
-| Hadith | Short identifier | Entry | Overall status | Text/source | Grading | Explanation | Benefits | Applications | Last checked |
+| رقم الحديث | عنوان مختصر | ملف الحديث | الحالة العامة | النص والمصدر | الحكم | الشرح | الفوائد | التطبيقات | آخر مراجعة |
 |---:|---|---|---|---|---|---|---|---|---|
-| — | — | — | No entries yet | — | — | — | — | — | — |
+| — | — | — | لا توجد مداخل بعد | — | — | — | — | — | — |
 
-## Status convention
+## اصطلاحات الحالة
 
-Use **VERIFIED**, **PARTIALLY VERIFIED**, **UNVERIFIED**, or **Research incomplete** as appropriate.
+تُستخدم الحالات الآتية بحسب الحاجة:
 
-Do not infer that the entire entry is VERIFIED merely because one section is verified.
+- **موثَّق**
+- **موثَّق جزئيًا**
+- **غير موثَّق**
+- **البحث غير مكتمل**
+
+ولا يُفهم من توثيق قسم واحد أن المدخل كله قد أصبح موثَّقًا.
