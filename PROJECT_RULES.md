@@ -8,28 +8,67 @@ GitHub is the permanent source of truth. Working notes outside the repository ar
 
 Accuracy, traceability, fidelity to sources, and preservation of context take priority over completeness or speed.
 
-## 2. Standard hadith structure
+## 2. Publication language
+
+The final companion is an **Arabic-only book**.
+
+All publication-facing content must therefore be written in Arabic, including:
+
+- section and subsection headings;
+- explanatory prose;
+- labels and captions;
+- verification notes visible in the book;
+- status language;
+- vocabulary explanations;
+- contextual notes;
+- commentary organization;
+- benefit and application wording;
+- source and verification summaries.
+
+English may be used only in private/internal working notes when useful for research. Such notes must not enter publication text.
+
+Technical evidence IDs and source IDs such as `SRC-0001`, `CMT01`, `B01`, and `A01` may remain alphanumeric for repository management, but they must not force English wording into the published book.
+
+Canonical Arabic verification labels are:
+
+- **موثَّق** — VERIFIED
+- **موثَّق جزئيًا** — PARTIALLY VERIFIED
+- **غير موثَّق** — UNVERIFIED
+
+Canonical Arabic incompleteness language includes:
+
+- **البحث غير مكتمل.**
+- **البحث عن الرواية الأطول غير مكتمل.**
+- **لم يُعثر على رواية أطول موثقة.**
+- **لم يُعثر على معلومات موثقة عن الزمان أو المكان أو ملابسات الحديث.**
+- **البحث في الشروح غير مكتمل.**
+- **لم يُعثر على فائدة موثقة عن أهل العلم.**
+- **لم يُعثر على تطبيق موثق ذكره أهل العلم.**
+- **لم يُراجع المصدر الأصلي بعد.**
+- **وُجد العزو، والتوثيق قيد المراجعة.**
+
+## 3. Standard hadith structure
 
 Every hadith entry must contain, in this order:
 
-1. **نص الحديث — Hadith Text**
-2. **المصدر والحكم — Source and Grading**
-3. **المفردات — Key Vocabulary**
-4. **شرح الحديث — Explanation**
-5. **الفوائد — Sourced Benefits**
-6. **تطبيقات ذكرها أهل العلم — Scholarly Applications**
-7. **Sources and Verification Status**
+1. **نص الحديث**
+2. **المصدر والحكم**
+3. **المفردات**
+4. **شرح الحديث**
+5. **الفوائد**
+6. **تطبيقات ذكرها أهل العلم**
+7. **المصادر وحالة التوثيق**
 
 Use the controlled template in `templates/hadith-entry-template.md`.
 
-Within **شرح الحديث — Explanation**, every entry must explicitly investigate:
+Within **شرح الحديث**, every entry must explicitly investigate:
 
 - whether the selected text is a complete standalone narration, an excerpt, an abridgment, or a wording that belongs to a longer narration;
 - the verified longer version or versions when they exist;
 - time, place, event, audience, question, incident, or other circumstances of the narration when reliable evidence exists;
 - substantial/full sourced commentary from recognized scholarly works.
 
-## 3. نص الحديث — Hadith Text
+## 4. نص الحديث
 
 - Preserve the hadith text exactly as found in the selected source.
 - Do not silently rewrite, normalize, shorten, combine, or harmonize narrations.
@@ -38,7 +77,7 @@ Within **شرح الحديث — Explanation**, every entry must explicitly inve
 - Any normalization made solely for search or indexing must never replace the preserved source text.
 - The wording used by *Al-Adab wa al-Adhkar* must be preserved as the project's base-text wording even when a longer or different wording exists elsewhere.
 
-## 4. المصدر والحكم — Source and Grading
+## 5. المصدر والحكم
 
 - Every grading must be attributed to a named scholar or a recognized hadith source.
 - Never present an unattributed grading as a project conclusion.
@@ -46,18 +85,18 @@ Within **شرح الحديث — Explanation**, every entry must explicitly inve
 - Record the relevant hadith number, book/chapter, volume/page, edition, database locator, or other stable locator where available.
 - If multiple gradings are recorded, attribute each one separately.
 
-## 5. المفردات — Key Vocabulary
+## 6. المفردات
 
 - Keep this section primarily linguistic.
 - Prefer reliable Arabic dictionaries, classical lexicons, hadith commentaries, and recognized scholarly explanations.
 - Record the source for meanings that are not obvious or that carry interpretive significance.
 - Do not turn vocabulary notes into unsourced religious benefits or rulings.
 
-## 6. شرح الحديث — Explanation
+## 7. شرح الحديث
 
 The explanation section is intended to preserve the narration's **full scholarly and historical context**, not merely provide a short paraphrase.
 
-### 6.1 Relationship to a longer narration
+### 7.1 Relationship to a longer narration
 
 For every hadith, explicitly investigate whether the wording in *Al-Adab wa al-Adhkar* is:
 
@@ -78,15 +117,15 @@ If a longer version exists:
 5. keep variant narrations separate rather than silently combining them;
 6. record verification status.
 
-If no verified longer version is located, state:
+If no verified longer version is located, publication text must use:
 
-**No verified longer version located.**
+**لم يُعثر على رواية أطول موثقة.**
 
-If research is unfinished, state:
+If research is unfinished:
 
-**Longer-version research incomplete.**
+**البحث عن الرواية الأطول غير مكتمل.**
 
-### 6.2 Time, place, and circumstances
+### 7.2 Time, place, and circumstances
 
 For every hadith, investigate whether reliable sources identify any of the following:
 
@@ -102,17 +141,17 @@ Every contextual statement must be sourced and traceable.
 
 Distinguish clearly between:
 
-- **explicitly stated context** in a primary narration;
-- **scholarly identification** of context in a recognized commentary or historical work;
+- explicitly stated context in a primary narration;
+- scholarly identification of context in a recognized commentary or historical work;
 - unsupported reconstruction or inference.
 
 Unsupported historical reconstruction must not enter the companion as fact.
 
-If no verified contextual information is located, state:
+If no verified contextual information is located, publication text must use:
 
-**No verified information on time, place, or circumstances located.**
+**لم يُعثر على معلومات موثقة عن الزمان أو المكان أو ملابسات الحديث.**
 
-### 6.3 Full scholarly commentary
+### 7.3 Full scholarly commentary
 
 The project should seek substantial commentary rather than reducing explanation to a few unsourced summary sentences.
 
@@ -132,7 +171,7 @@ When several major commentaries materially illuminate different parts of the nar
 
 A project summary may organize verified commentary, but it must not introduce new religious conclusions or present AI-generated synthesis as a scholar's wording.
 
-### 6.4 Dorar al-Sunniyyah workflow
+### 7.4 Dorar al-Sunniyyah workflow
 
 When Dorar al-Sunniyyah is used:
 
@@ -145,7 +184,7 @@ When Dorar al-Sunniyyah is used:
 
 Dorar may be used as a research gateway, but attributed scholarly material should be traced to the original work whenever possible.
 
-## 7. الفوائد — Sourced Benefits
+## 8. الفوائد
 
 **No benefit may be included unless it is attributed to a named scholarly source and can be traced back to an identifiable original text or book.**
 
@@ -166,7 +205,7 @@ If the original scholarly source cannot be inspected, the benefit must not be tr
 
 A benefit found only in a secondary source may be retained as research material with the appropriate lower verification status, but must not be silently promoted to final companion text.
 
-## 8. تطبيقات ذكرها أهل العلم — Scholarly Applications
+## 9. تطبيقات ذكرها أهل العلم
 
 The project must not independently invent practical applications, scenarios, spiritual exercises, or behavioral prescriptions for publication.
 
@@ -179,18 +218,18 @@ Use the heading **تطبيقات ذكرها أهل العلم**.
 
 Record the original supporting text and source locator where possible.
 
-If no verified application is located, state:
+If no verified application is located, publication text must use:
 
-**No verified scholarly application located.**
+**لم يُعثر على تطبيق موثق ذكره أهل العلم.**
 
-## 9. AI research boundary
+## 10. AI research boundary
 
 AI may:
 
 - search;
 - organize;
 - compare sources;
-- translate;
+- translate research material when needed;
 - index;
 - summarize research notes;
 - help locate original texts;
@@ -210,25 +249,25 @@ AI may not independently create for publication:
 
 Generated research notes must never be mistaken for sourced scholarly material.
 
-## 10. Verification levels
+## 11. Verification levels
 
-Use only these labels:
+Use these canonical Arabic publication labels:
 
-### VERIFIED
+### موثَّق
 
 The original source was inspected and the relevant text, attribution, context, and locator were checked against it.
 
-### PARTIALLY VERIFIED
+### موثَّق جزئيًا
 
 A reliable secondary source, recognized research gateway, catalog record, quotation, or attribution was found, but the original source has not yet been inspected sufficiently to confirm the claim.
 
-### UNVERIFIED
+### غير موثَّق
 
 An attribution or claim was found but has not been confirmed, or the evidence is presently too weak to rely on.
 
-Only **VERIFIED** material should normally enter the final companion.
+Only **موثَّق** material should normally enter the final companion.
 
-## 11. Source priority
+## 12. Source priority
 
 Prefer sources in this order:
 
@@ -243,7 +282,7 @@ For historical circumstances, also use early biographical, sīrah, maghāzī, �
 
 A lower-priority source may help locate material, but it does not replace original-source verification when the original is reasonably obtainable.
 
-## 12. Evidence and citation requirements
+## 13. Evidence and citation requirements
 
 A citation is not merely a link. For any claim intended for publication, record enough information for another researcher to locate and inspect the supporting passage.
 
@@ -265,16 +304,16 @@ Do not cite a search-result snippet as evidence.
 
 Do not use an AI-generated quotation, reconstructed wording, or unverified transcription as original source text.
 
-## 13. Verification gate for final material
+## 14. Verification gate for final material
 
-Before an item is marked VERIFIED, confirm:
+Before an item is marked **موثَّق**, confirm:
 
 - the original source itself was inspected;
 - the attributed scholar or author matches the source;
 - the quoted or summarized material is actually present;
 - the locator is sufficient to find it again;
 - the wording has not been strengthened beyond the source;
-- any translation is faithful to the source;
+- any translation used in research is faithful to the source;
 - the item belongs in the section where it is being used.
 
 Before a hadith entry is treated as publication-ready, confirm additionally:
@@ -283,25 +322,26 @@ Before a hadith entry is treated as publication-ready, confirm additionally:
 - any included longer narration was checked against its source;
 - contextual claims about time, place, audience, event, or circumstance are individually sourced;
 - substantial commentary research has been completed or explicitly marked incomplete;
-- every substantive claim in sections 2–6 has visible evidence status.
+- every substantive claim in sections 2–6 has visible evidence status;
+- all publication-facing wording is Arabic.
 
-## 14. Honest incompleteness
+## 15. Honest incompleteness
 
 Never fill a missing section merely to make an entry look complete.
 
-Approved status language includes:
+Approved Arabic status language includes:
 
-- **Research incomplete**
-- **No verified longer version located.**
-- **Longer-version research incomplete.**
-- **No verified information on time, place, or circumstances located.**
-- **Commentary research incomplete.**
-- **No verified scholarly benefit located.**
-- **No verified scholarly application located.**
-- **Original source not yet inspected.**
-- **Attribution found; verification pending.**
+- **البحث غير مكتمل.**
+- **لم يُعثر على رواية أطول موثقة.**
+- **البحث عن الرواية الأطول غير مكتمل.**
+- **لم يُعثر على معلومات موثقة عن الزمان أو المكان أو ملابسات الحديث.**
+- **البحث في الشروح غير مكتمل.**
+- **لم يُعثر على فائدة موثقة عن أهل العلم.**
+- **لم يُعثر على تطبيق موثق ذكره أهل العلم.**
+- **لم يُراجع المصدر الأصلي بعد.**
+- **وُجد العزو، والتوثيق قيد المراجعة.**
 
-## 15. Repository discipline
+## 16. Repository discipline
 
 - Keep one hadith per entry file unless the project explicitly changes this convention.
 - Use stable source IDs from `sources/source-register.md` when practical.
