@@ -6,7 +6,7 @@ These rules govern all research, drafting, verification, and repository updates 
 
 GitHub is the permanent source of truth. Working notes outside the repository are provisional until they are checked and committed here.
 
-Accuracy, traceability, and fidelity to sources take priority over completeness or speed.
+Accuracy, traceability, fidelity to sources, and preservation of context take priority over completeness or speed.
 
 ## 2. Standard hadith structure
 
@@ -22,6 +22,13 @@ Every hadith entry must contain, in this order:
 
 Use the controlled template in `templates/hadith-entry-template.md`.
 
+Within **شرح الحديث — Explanation**, every entry must explicitly investigate:
+
+- whether the selected text is a complete standalone narration, an excerpt, an abridgment, or a wording that belongs to a longer narration;
+- the verified longer version or versions when they exist;
+- time, place, event, audience, question, incident, or other circumstances of the narration when reliable evidence exists;
+- substantial/full sourced commentary from recognized scholarly works.
+
 ## 3. نص الحديث — Hadith Text
 
 - Preserve the hadith text exactly as found in the selected source.
@@ -29,6 +36,7 @@ Use the controlled template in `templates/hadith-entry-template.md`.
 - Record the exact source and locator used for the preserved text.
 - If variants are relevant, keep them distinct and identify their sources separately.
 - Any normalization made solely for search or indexing must never replace the preserved source text.
+- The wording used by *Al-Adab wa al-Adhkar* must be preserved as the project's base-text wording even when a longer or different wording exists elsewhere.
 
 ## 4. المصدر والحكم — Source and Grading
 
@@ -47,7 +55,84 @@ Use the controlled template in `templates/hadith-entry-template.md`.
 
 ## 6. شرح الحديث — Explanation
 
-### Dorar al-Sunniyyah workflow
+The explanation section is intended to preserve the narration's **full scholarly and historical context**, not merely provide a short paraphrase.
+
+### 6.1 Relationship to a longer narration
+
+For every hadith, explicitly investigate whether the wording in *Al-Adab wa al-Adhkar* is:
+
+- a complete standalone narration;
+- an excerpt from a longer narration;
+- an abridged form of a longer narration;
+- one wording among materially different variants;
+- or presently unclear.
+
+Do not infer that a narration is complete merely because a database page displays only that wording.
+
+If a longer version exists:
+
+1. identify the primary source containing it;
+2. preserve the longer text exactly as found in the selected verified source;
+3. record its chain/source locator as appropriate;
+4. explain, descriptively, how the companion's shorter wording relates to the longer version;
+5. keep variant narrations separate rather than silently combining them;
+6. record verification status.
+
+If no verified longer version is located, state:
+
+**No verified longer version located.**
+
+If research is unfinished, state:
+
+**Longer-version research incomplete.**
+
+### 6.2 Time, place, and circumstances
+
+For every hadith, investigate whether reliable sources identify any of the following:
+
+- time or approximate period;
+- place;
+- journey, battle, pilgrimage, visit, illness, meal, gathering, sermon, or other event;
+- question or incident that prompted the statement;
+- person or group addressed;
+- action taking place when the words were spoken;
+- other relevant circumstances of transmission.
+
+Every contextual statement must be sourced and traceable.
+
+Distinguish clearly between:
+
+- **explicitly stated context** in a primary narration;
+- **scholarly identification** of context in a recognized commentary or historical work;
+- unsupported reconstruction or inference.
+
+Unsupported historical reconstruction must not enter the companion as fact.
+
+If no verified contextual information is located, state:
+
+**No verified information on time, place, or circumstances located.**
+
+### 6.3 Full scholarly commentary
+
+The project should seek substantial commentary rather than reducing explanation to a few unsourced summary sentences.
+
+For each commentary source used, record:
+
+- scholar;
+- work;
+- original Arabic text or the relevant substantial passage where appropriate;
+- edition;
+- volume/page, hadith/chapter/section, or other locator;
+- direct/stable link when available;
+- verification status.
+
+Prefer original commentary works over quotations of those works in secondary sources.
+
+When several major commentaries materially illuminate different parts of the narration, preserve those strands separately rather than collapsing them into an unattributed synthesis.
+
+A project summary may organize verified commentary, but it must not introduce new religious conclusions or present AI-generated synthesis as a scholar's wording.
+
+### 6.4 Dorar al-Sunniyyah workflow
 
 When Dorar al-Sunniyyah is used:
 
@@ -109,6 +194,8 @@ AI may:
 - index;
 - summarize research notes;
 - help locate original texts;
+- compare short and long narrations descriptively;
+- organize sourced historical context;
 - format verified evidence.
 
 AI may not independently create for publication:
@@ -117,7 +204,9 @@ AI may not independently create for publication:
 - hadith benefits;
 - spiritual conclusions;
 - practical applications;
-- claims of consensus.
+- claims of consensus;
+- invented historical circumstances;
+- speculative reasons for why a hadith was said.
 
 Generated research notes must never be mistaken for sourced scholarly material.
 
@@ -127,7 +216,7 @@ Use only these labels:
 
 ### VERIFIED
 
-The original source was inspected and the relevant text, attribution, and locator were checked against it.
+The original source was inspected and the relevant text, attribution, context, and locator were checked against it.
 
 ### PARTIALLY VERIFIED
 
@@ -150,6 +239,8 @@ Prefer sources in this order:
 5. Dorar al-Sunniyyah.
 6. Reliable secondary research tools.
 
+For historical circumstances, also use early biographical, sīrah, maghāzī, ṭabaqāt, and historical works when directly relevant, while recording their evidentiary status.
+
 A lower-priority source may help locate material, but it does not replace original-source verification when the original is reasonably obtainable.
 
 ## 12. Evidence and citation requirements
@@ -167,6 +258,7 @@ Where applicable, include:
 - stable URL;
 - date accessed for online sources;
 - exact original-language evidence for benefits and applications;
+- exact supporting evidence for claimed historical context;
 - verification status.
 
 Do not cite a search-result snippet as evidence.
@@ -185,7 +277,13 @@ Before an item is marked VERIFIED, confirm:
 - any translation is faithful to the source;
 - the item belongs in the section where it is being used.
 
-Before a hadith entry is treated as publication-ready, review every substantive claim in sections 2–6 and ensure its evidence status is visible.
+Before a hadith entry is treated as publication-ready, confirm additionally:
+
+- the relationship to any longer narration has been investigated;
+- any included longer narration was checked against its source;
+- contextual claims about time, place, audience, event, or circumstance are individually sourced;
+- substantial commentary research has been completed or explicitly marked incomplete;
+- every substantive claim in sections 2–6 has visible evidence status.
 
 ## 14. Honest incompleteness
 
@@ -194,6 +292,10 @@ Never fill a missing section merely to make an entry look complete.
 Approved status language includes:
 
 - **Research incomplete**
+- **No verified longer version located.**
+- **Longer-version research incomplete.**
+- **No verified information on time, place, or circumstances located.**
+- **Commentary research incomplete.**
 - **No verified scholarly benefit located.**
 - **No verified scholarly application located.**
 - **Original source not yet inspected.**
