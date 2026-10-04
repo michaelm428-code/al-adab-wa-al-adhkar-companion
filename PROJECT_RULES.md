@@ -94,7 +94,8 @@ Every hadith entry must contain, in this order:
 4. **شرح الحديث**
 5. **الفوائد**
 6. **تطبيقات ذكرها أهل العلم**
-7. **المصادر وحالة التوثيق**
+7. **أسئلة الاستيعاب**
+8. **المصادر وحالة التوثيق**
 
 Use the controlled template in `templates/hadith-entry-template.md`.
 
@@ -277,6 +278,22 @@ If no verified application is located, publication text must use:
 
 **لم يُعثر على تطبيق موثق ذكره أهل العلم.**
 
+## 9.1 أسئلة الاستيعاب
+
+The project may create comprehension questions as a pedagogical transformation of already VERIFIED material.
+
+Every published question must:
+
+- have a specific model answer stored in the corresponding `hadith/` research file;
+- map to VERIFIED evidence from the hadith text, vocabulary, verified variants/context, named scholarly commentary, sourced benefits, or sourced applications;
+- avoid asking the reader to independently derive a religious ruling, benefit, spiritual conclusion, or application;
+- name the scholar in the question when the expected answer depends on that scholar's explanation;
+- remain within the material actually presented or documented for that entry.
+
+The publication file shows **questions only**. The research dossier preserves the answer key and evidence mapping.
+
+Follow the detailed controlled standard in `editorial/COMPREHENSION_QUESTIONS.md`.
+
 ## 10. AI research boundary
 
 AI may:
@@ -377,7 +394,7 @@ Before a hadith entry is treated as publication-ready, confirm additionally:
 - any included longer narration was checked against its source;
 - contextual claims about time, place, audience, event, or circumstance are individually sourced;
 - substantial commentary research has been completed or explicitly marked incomplete;
-- every substantive claim in sections 2–6 has visible evidence status;
+- every substantive claim in sections 2–7 has visible evidence status;
 - all publication-facing wording is Arabic.
 
 ## 14.1 Separation of research and publication
