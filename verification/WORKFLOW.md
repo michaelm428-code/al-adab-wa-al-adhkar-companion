@@ -152,6 +152,19 @@ If nothing meets the standard, write:
 
 **No verified scholarly application located.**
 
+## 9.1 Build comprehension questions
+
+After the hadith text, vocabulary, commentary, benefits, and applications have been researched:
+
+1. Draft questions only from VERIFIED material.
+2. Give each question an ID: `CQ01`, `CQ02`, etc.
+3. Record the model answer in the research dossier.
+4. Record the exact evidence ID or scholarly source supporting the answer.
+5. Prefer retrieval and precise comparison questions over open-ended religious inference.
+6. If a question depends on a scholar's interpretation, name that scholar.
+7. Do not publish the answer key in the reader-facing entry.
+8. Apply `editorial/COMPREHENSION_QUESTIONS.md`.
+
 ## 10. Citation record
 
 For each publication-relevant item, capture enough metadata to re-open the evidence:
@@ -204,7 +217,7 @@ Before an entry is marked publication-ready, confirm:
 - any longer version included has been source-checked;
 - historical/contextual claims are individually sourced;
 - substantial commentary research has been completed or transparently marked incomplete;
-- all substantive material in sections 2–6 has been reviewed;
+- all substantive material in sections 2–7 has been reviewed;
 - the project index has been updated;
 - names and honorifics in project-authored publication prose comply with `editorial/RESPECT_AND_HONORIFICS.md`, without altering preserved quotations or source text.
 
@@ -219,10 +232,11 @@ After the research dossier has completed the major-source pass:
 5. Keep longer narrations and variants separate.
 6. Preserve user-supplied Dorar commentary exactly when included.
 7. Attribute scholarly commentary, benefits, and applications by name.
-8. Audit the publication file against the research dossier.
-9. Audit respectful mention and honorifics against `editorial/RESPECT_AND_HONORIFICS.md`, while preserving verbatim source text unchanged.
-10. Mark it **مسودة تحريرية**, **جاهز للمراجعة النهائية**, or **معتمد للنشر**.
-11. Update `CURRENT_STATUS.md`.
+8. Include only comprehension questions whose model answers and evidence mappings are recorded in the research dossier.
+9. Audit the publication file against the research dossier.
+10. Audit respectful mention and honorifics against `editorial/RESPECT_AND_HONORIFICS.md`, while preserving verbatim source text unchanged.
+11. Mark it **مسودة تحريرية**, **جاهز للمراجعة النهائية**, or **معتمد للنشر**.
+12. Update `CURRENT_STATUS.md`.
 
 A research dossier may remain technically incomplete because of an optional unresolved lead while the publication file advances, provided that lead is not used in publication.
 
