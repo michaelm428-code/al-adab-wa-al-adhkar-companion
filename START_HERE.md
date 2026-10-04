@@ -8,11 +8,12 @@
 
 1. [PROJECT_RULES.md](PROJECT_RULES.md) — القواعد الحاكمة للمشروع.
 2. [verification/WORKFLOW.md](verification/WORKFLOW.md) — مسار البحث والتوثيق من البداية إلى النشر.
-3. [index/book-structure.md](index/book-structure.md) — خريطة الكتاب ونظام ترقيم الموضوعات والأحاديث.
-4. [CURRENT_STATUS.md](CURRENT_STATUS.md) — موضع التوقف الحالي وما تم إنجازه وما بقي.
-5. [sources/source-register.md](sources/source-register.md) — سجل المصادر المعتمدة.
-6. ملف البحث الخاص بالحديث الجاري في مجلد `hadith/`.
-7. النسخة التحريرية المقابلة له في `publication/` إن وُجدت.
+3. [editorial/RESPECT_AND_HONORIFICS.md](editorial/RESPECT_AND_HONORIFICS.md) — قاعدة الأدب في ذكر الله والأنبياء والصحابة وأهل العلم.
+4. [index/book-structure.md](index/book-structure.md) — خريطة الكتاب ونظام ترقيم الموضوعات والأحاديث.
+5. [CURRENT_STATUS.md](CURRENT_STATUS.md) — موضع التوقف الحالي وما تم إنجازه وما بقي.
+6. [sources/source-register.md](sources/source-register.md) — سجل المصادر المعتمدة.
+7. ملف البحث الخاص بالحديث الجاري في مجلد `hadith/`.
+8. النسخة التحريرية المقابلة له في `publication/` إن وُجدت.
 
 ## قاعدة الاستمرارية
 
