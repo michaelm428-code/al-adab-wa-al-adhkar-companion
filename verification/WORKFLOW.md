@@ -205,7 +205,8 @@ Before an entry is marked publication-ready, confirm:
 - historical/contextual claims are individually sourced;
 - substantial commentary research has been completed or transparently marked incomplete;
 - all substantive material in sections 2–6 has been reviewed;
-- the project index has been updated.
+- the project index has been updated;
+- names and honorifics in project-authored publication prose comply with `editorial/RESPECT_AND_HONORIFICS.md`, without altering preserved quotations or source text.
 
 ## 13.1 Prepare the publication file
 
@@ -219,8 +220,9 @@ After the research dossier has completed the major-source pass:
 6. Preserve user-supplied Dorar commentary exactly when included.
 7. Attribute scholarly commentary, benefits, and applications by name.
 8. Audit the publication file against the research dossier.
-9. Mark it **مسودة تحريرية**, **جاهز للمراجعة النهائية**, or **معتمد للنشر**.
-10. Update `CURRENT_STATUS.md`.
+9. Audit respectful mention and honorifics against `editorial/RESPECT_AND_HONORIFICS.md`, while preserving verbatim source text unchanged.
+10. Mark it **مسودة تحريرية**, **جاهز للمراجعة النهائية**, or **معتمد للنشر**.
+11. Update `CURRENT_STATUS.md`.
 
 A research dossier may remain technically incomplete because of an optional unresolved lead while the publication file advances, provided that lead is not used in publication.
 
