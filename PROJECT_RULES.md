@@ -66,6 +66,24 @@ Canonical Arabic incompleteness language includes:
 - **لم يُراجع المصدر الأصلي بعد.**
 - **وُجد العزو، والتوثيق قيد المراجعة.**
 
+## 2.1 Respectful mention and honorifics
+
+The project follows the source-based editorial standard in `editorial/RESPECT_AND_HONORIFICS.md`.
+
+Core publication rules:
+
+- Write **صلى الله عليه وسلم** in full in project-authored prose when mentioning the Prophet Muhammad صلى الله عليه وسلم; do not use abbreviations such as `ص` or `صلعم`.
+- In project-authored prose, prefer the full phrase over the typographic shorthand `ﷺ`.
+- Use **عليه الصلاة والسلام** for other prophets in project-authored prose.
+- Use **رضي الله عنه / عنها / عنهما / عنهم** for the Companions.
+- Use **رحمه الله / رحمهم الله** for deceased later scholars.
+- For living scholars, verify that they are living and use a recognized scholarly title; an appropriate supplication such as **حفظه الله** or **وفقه الله** may be used.
+- Use suitable praise for Allah, such as **سبحانه وتعالى**, **عز وجل**, or **تعالى**, in project-authored prose.
+- Do not invent scholarly titles.
+- These editorial honorifics must never alter a quotation, base hadith text, primary-source wording, or user-supplied Dorar text that must be preserved exactly.
+
+This is an editorial adab standard based principally on Ibn al-Salah's and al-Nawawi's instructions for hadith writing, al-Nawawi's `al-Adhkar`, and the customary distinction explained by Shaykh Ibn Baz. See `SRC-0029` through `SRC-0032`.
+
 ## 3. Standard hadith structure
 
 Every hadith entry must contain, in this order:
